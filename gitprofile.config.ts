@@ -1,161 +1,207 @@
-// gitprofile.config.ts
+// gitprofile.config.ts — filled from CV (Oct 19, 2025)
 
 const CONFIG = {
   github: {
     username: 'matin-mb', // Your GitHub org/user name. (This is the only required config)
   },
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
+   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/<USER>/<USER>.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * for example your repository is at https://github.com/<USER>/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'GitHub Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed.
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['matin-mb/Minnesota_BlockChain_HWs', 'matin-mb/resources'],
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Selected Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'CORE-3D: Context-Aware Open-Vocabulary Retrieval by Embeddings in 3D',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'First-author work on context-aware open-vocabulary object retrieval in reconstructed 3D scenes; under review at ICLR 2026 (2025).',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://arxiv.org/abs/2509.24528',
         },
         {
-          title: 'Project Name',
+          title: 'Autonomous Robotic Agent: 3D Mapping, Exploration, Retrieval',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Natural-language commands for 3D mapping and open-vocabulary retrieval; simulation in Webots and real-world deployment on a 4-wheeled robot with stereo vision.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/matin-mb',
+        },
+        {
+          title: 'Neural Decoding of Long-term Cortical Spiking (INL, EPFL)',
+          description:
+            'Transformer-based model predicting cursor velocity from motor/premotor cortical spike trains; collaboration at EPFL INL.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/matin-mb',
+        },
+        {
+          title: 'Private Training and Machine Unlearning (SISA)',
+          description:
+            'Implementation and evaluation of SISA; compared MIA accuracy between standard and privacy-enhanced training pipelines.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/matin-mb',
+        },
+        {
+          title: 'MIPS Datapath: Single- & Multi-Cycle (ModelSim)',
+          description:
+            'Designed and verified MIPS single- and multi-cycle datapaths supporting core R/I-type, branches, and jumps.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/matin-mb',
+        },
+        {
+          title: 'Head Football (C++ Minigame)',
+          description:
+            'C++ implementation inspired by HeadSoccer; course project (Basic Programming).',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/matin-mb',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Mohammad Matin Mirzababaei', description: 'B.Sc. Electrical Engineering @ Sharif | Quantization & Robotics | EPFL INL Research Intern', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'matinbabaei',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: '',
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://github.com/matin-mb',
+    phone: '+989120851827',
+    email: 'mm.mirzababaei@ee.sharif.edu',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '/assets/CV_Mohammad_Matin_Mirzababaei.pdf', // Place your CV at this path in the repo to enable the button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Python',
+    'C/C++',
+    'Java',
+    'Matlab',
+    'SQL',
+    'Verilog',
+    'MIPS Assembly',
+    'PyTorch',
+    'Machine Learning',
+    'Robotics',
+    'Webots',
+    'Simulink',
+    'ModelSim',
+    'Xilinx ISE',
+    'LTspice',
+    'PSpice',
+    'COMSOL',
+    'EEGLAB',
+    'PowerWorld',
+    'LaTeX',
+    'Photoshop',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'EPFL — Integrated Neurotechnologies Laboratory (INL)',
+      position: 'Research Intern (Model Quantization & Compression)',
+      from: 'July 2025',
+      to: 'September 2025',
+      companyLink: 'https://www.epfl.ch',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Sharif University of Technology — STNL',
+      position: 'Research Assistant (Autonomous Robotic Agent)',
+      from: 'April 2024',
+      to: 'Present',
+      companyLink: 'https://www.sharif.edu',
+    },
+    {
+      company: 'Kavoshcom Company',
+      position: 'Smart Machines — Summer Intern',
+      from: 'July 2024',
+      to: 'October 2024',
+      companyLink: 'https://kavoshcom.com',
+    },
+    {
+      company: 'Teaching — Sharif University of Technology',
+      position: 'Head TA / TA (Engineering Math; AI; Eng. Probability & Statistics; OOP)',
+      from: 'February 2023',
+      to: 'Present',
+      companyLink: 'https://www.sharif.edu',
+    },
+    {
+      company: 'University of Minnesota (Remote)',
+      position: 'Teaching Assistant — Foundations of Blockchain',
+      from: 'July 2023',
+      to: 'January 2024',
+      companyLink: 'https://twin-cities.umn.edu',
     },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // Add certificates here if desired
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Sharif University of Technology',
+      degree: 'B.Sc. Electrical Engineering (Top 5% — GPA 19.3/20)',
+      from: '2021',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Kamal High School',
+      degree: 'Mathematics & Physics (GPA 19.99/20)',
+      from: '2014',
+      to: '2021',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: 'CORE-3D: Context-Aware Open-Vocabulary Retrieval by Embeddings in 3D',
+      conferenceName: 'ICLR (under review, 2026 — submitted 2025)',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: 'Mohammad Matin Mirzababaei (First Author)',
+      link: 'https://arxiv.org/abs/2509.24528',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Context-aware retrieval in 3D scenes reconstructed from stereo mapping; combines open-vocabulary alignment with 3D embeddings. Under review at ICLR 2026 (2025).',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -220,10 +266,10 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/matin-mb"
       target="_blank"
       rel="noreferrer"
-    > ❤️`,
+    >❤️`,
 
   enablePWA: true,
 };
