@@ -83,7 +83,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Mohammad Matin Mirzababaei', description: 'B.Sc. Electrical Engineering @ Sharif | Quantization & Robotics | EPFL INL Research Intern', imageURL: '' },
+  seo: { title: 'Matin M.babaei', description: 'B.Sc. Electrical Engineering @ Sharif | Quantization & Robotics | EPFL INL Research Intern', imageURL: '' },
   social: {
     linkedin: 'matinbabaei',
     x: '',
