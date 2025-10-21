@@ -115,14 +115,14 @@ const CONFIG = {
   experiences: [
     {
       company: 'EPFL — Integrated Neurotechnologies Laboratory (INL)',
-      position: 'Research Intern (Model Quantization & Compression)',
+      position: 'Research Intern',
       from: 'July 2025',
       to: 'September 2025',
       companyLink: 'https://www.epfl.ch',
     },
     {
       company: 'Sharif University of Technology — STNL',
-      position: 'Research Assistant (Autonomous Robotic Agent)',
+      position: 'Research Assistant',
       from: 'April 2024',
       to: 'Present',
       companyLink: 'https://www.sharif.edu',
