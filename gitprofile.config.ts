@@ -41,14 +41,14 @@ const CONFIG = {
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://github.com/matin-mb',
         },
-        {
-          title: 'Private Training and Machine Unlearning (SISA)',
-          description:
-            'Implementation and evaluation of SISA; compared MIA accuracy between standard and privacy-enhanced training pipelines.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://github.com/matin-mb',
-        },
+        // {
+        //   title: 'Private Training and Machine Unlearning (SISA)',
+        //   description:
+        //     'Implementation and evaluation of SISA; compared MIA accuracy between standard and privacy-enhanced training pipelines.',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: 'https://github.com/matin-mb',
+        // },
         {
           title: 'MIPS Datapath: Single- & Multi-Cycle (ModelSim)',
           description:
@@ -62,7 +62,7 @@ const CONFIG = {
           description:
             'C++ implementation inspired by HeadSoccer; course project (Basic Programming).',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://raw.githubusercontent.com/matin-mb/matin-mb.github.io/main/Pics/HeadFootball.png',
           link: 'https://github.com/matin-mb',
         },
       ],
