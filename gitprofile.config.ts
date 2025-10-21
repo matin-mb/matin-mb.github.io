@@ -11,23 +11,6 @@ const CONFIG = {
    */
   base: '/',
   projects: {
-    github: {
-      display: false, // Display GitHub projects?
-      header: 'GitHub Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed.
-        },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['matin-mb/Minnesota_BlockChain_HWs', 'matin-mb/resources'],
-      },
-    },
     external: {
       header: 'Selected Projects',
       // To hide the `External Projects` section, keep it empty.
@@ -81,6 +64,24 @@ const CONFIG = {
           link: 'https://github.com/matin-mb',
         },
       ],
+    },
+
+    github: {
+      display: false, // Display GitHub projects?
+      header: 'GitHub Projects',
+      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      automatic: {
+        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        limit: 8, // How many projects to display.
+        exclude: {
+          forks: false, // Forked projects will not be displayed if set to true.
+          projects: [], // These projects will not be displayed.
+        },
+      },
+      manual: {
+        // Properties for manually specifying projects
+        projects: ['matin-mb/Minnesota_BlockChain_HWs', 'matin-mb/resources'],
+      },
     },
   },
   seo: { title: 'Matin M.babaei', description: 'B.Sc. Electrical Engineering @ Sharif | Quantization & Robotics | EPFL INL Research Intern', imageURL: '' },
