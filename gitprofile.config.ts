@@ -39,7 +39,7 @@ const CONFIG = {
             'Transformer-based model predicting cursor velocity from motor/premotor cortical spike trains; collaboration at EPFL INL.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://github.com/matin-mb',
+          link: 'https://github.com/matin-mb/Neural-Decoding-Project',
         },
         // {
         //   title: 'Private Training and Machine Unlearning (SISA)',
@@ -54,7 +54,7 @@ const CONFIG = {
           description:
             'Designed and verified MIPS single- and multi-cycle datapaths supporting core R/I-type, branches, and jumps.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://raw.githubusercontent.com/matin-mb/matin-mb.github.io/main/Pics/Mips.png',
           link: 'https://github.com/matin-mb',
         },
         {
@@ -63,7 +63,7 @@ const CONFIG = {
             'C++ implementation inspired by HeadSoccer; course project (Basic Programming).',
           imageUrl:
             'https://raw.githubusercontent.com/matin-mb/matin-mb.github.io/main/Pics/HeadFootball.png',
-          link: 'https://github.com/matin-mb',
+          link: 'https://github.com/matin-mb/HeadFootball',
         },
       ],
     },
