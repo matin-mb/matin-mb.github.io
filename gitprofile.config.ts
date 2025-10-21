@@ -27,8 +27,10 @@ const CONFIG = {
           title: 'Autonomous Robotic Agent: 3D Mapping, Exploration, Retrieval',
           description:
             'Natural-language commands for 3D mapping and open-vocabulary retrieval; simulation in Webots and real-world deployment on a 4-wheeled robot with stereo vision.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          imageUrl: 
+            '/Pics/Robot_Setup.jpg',
           link: 'https://github.com/matin-mb',
         },
         {
