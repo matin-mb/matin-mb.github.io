@@ -20,7 +20,7 @@ const CONFIG = {
           description:
             'First-author work on context-aware open-vocabulary object retrieval in reconstructed 3D scenes; under review at ICLR 2026 (2025).',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://drive.google.com/drive/folders/144JrhajupG6vEhgnwk5WemY0L1uYeRXc?usp=sharing',
           link: 'https://arxiv.org/abs/2509.24528',
         },
         {
