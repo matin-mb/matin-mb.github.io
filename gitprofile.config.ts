@@ -30,7 +30,7 @@ const CONFIG = {
           // imageUrl:
           //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           imageUrl: 
-            'https://github.com/matin-mb/matin-mb.github.io/blob/main/Pics/Robot_Setup.jpg',
+            'https://raw.githubusercontent.com/matin-mb/matin-mb.github.io/main/Pics/Robot_Setup.jpg',
           link: 'https://github.com/matin-mb',
         },
         {
