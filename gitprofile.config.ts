@@ -20,7 +20,7 @@ const CONFIG = {
           description:
             'First-author work on context-aware open-vocabulary object retrieval in reconstructed 3D scenes; under review at ICLR 2026 (2025).',
           imageUrl:
-            'https://raw.githubusercontent.com/matin-mb/matin-mb.github.io/main/Pics/CORE3D.jpg',
+            'https://raw.githubusercontent.com/matin-mb/matin-mb.github.io/main/Pics/CORE3D-Edited.jpg',
           link: 'https://arxiv.org/abs/2509.24528',
         },
         {
