@@ -38,7 +38,7 @@ const CONFIG = {
           description:
             'Transformer-based model predicting cursor velocity from motor/premotor cortical spike trains; collaboration at EPFL INL.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://raw.githubusercontent.com/matin-mb/matin-mb.github.io/main/Pics/Neural Decoding1.jpg',
           link: 'https://github.com/matin-mb/Neural-Decoding-Project',
         },
         // {
