@@ -49,13 +49,21 @@ const CONFIG = {
         //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
         //   link: 'https://github.com/matin-mb',
         // },
+        // {
+        //   title: 'Benchmark Framework for Computational Efficiency in Trajectory Prediction',
+        //   description:
+        //     'benchmarking framework for trajectory prediction that evaluates both accuracy (ADE/FDE, miss/collision rates) and computational efficiency latency, GPU memory, scalability vs. batch size, energy)',
+        //   imageUrl:
+        //     'https://raw.githubusercontent.com/matin-mb/matin-mb.github.io/main/Pics/Mips.png',
+        //   link: 'https://github.com/matin-mb/MIPS-Datapath-Implementation',
+        // },
         {
           title: 'MIPS Datapath: Single- & Multi-Cycle (ModelSim)',
           description:
             'Designed and verified MIPS single- and multi-cycle datapaths supporting core R/I-type, branches, and jumps.',
           imageUrl:
             'https://raw.githubusercontent.com/matin-mb/matin-mb.github.io/main/Pics/Mips.png',
-          link: 'https://github.com/matin-mb',
+          link: 'https://github.com/matin-mb/MIPS-Datapath-Implementation',
         },
         {
           title: 'Head Football (C++ Minigame)',
